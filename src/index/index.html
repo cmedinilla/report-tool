@@ -45,7 +45,9 @@
 	<script>
 	$(document).ready(function() {
 		$('#example').DataTable({
-        "ajax": 'http://demo9508530.mockable.io/'
-    })});
+			"ajax": 'http://demo9508530.mockable.io/',
+			buttons: ['copy', 'excel', 'pdf']
+		})
+	});
 	</script>
 </html>
